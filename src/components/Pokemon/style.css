@@ -1,0 +1,27 @@
+.pokemon__card {
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  padding: 15px 30px;
+  background: white;
+  border: rgba(51, 51, 51, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon__card__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokemon__card__header img {
+  max-width: 96px;
+}
+
+.pokemon__card__info {
+  margin-top: 10px;
+}
